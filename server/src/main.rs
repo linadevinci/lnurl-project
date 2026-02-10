@@ -28,8 +28,9 @@ const CHANNEL_REQUEST_TAG: &str = "channelRequest";
 const WITHDRAW_REQUEST_TAG: &str = "withdrawRequest";
 const DEFAULT_DESCRIPTION: &str = "Withdrawal from service";
 
-const IP_ADDRESS: &str = "192.168.27.67:9735";
-const CALLBACK_URL: &str = "http://192.168.27.67:3000/";
+// ⚠️ UPDATE THESE to match your actual machine
+const IP_ADDRESS: &str = "192.168.27.72:9735";
+const CALLBACK_URL: &str = "http://192.168.27.72:3000/";
 
 static NODE_URI: OnceLock<String> = OnceLock::new();
 
