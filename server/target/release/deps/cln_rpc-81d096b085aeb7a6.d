@@ -1,0 +1,12 @@
+/home/linoux/lnurl-project/server/target/release/deps/cln_rpc-81d096b085aeb7a6.d: /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/lib.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/codec.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/jsonrpc.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/model.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/notifications.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/primitives.rs
+
+/home/linoux/lnurl-project/server/target/release/deps/libcln_rpc-81d096b085aeb7a6.rlib: /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/lib.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/codec.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/jsonrpc.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/model.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/notifications.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/primitives.rs
+
+/home/linoux/lnurl-project/server/target/release/deps/libcln_rpc-81d096b085aeb7a6.rmeta: /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/lib.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/codec.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/jsonrpc.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/model.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/notifications.rs /home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/primitives.rs
+
+/home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/lib.rs:
+/home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/codec.rs:
+/home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/jsonrpc.rs:
+/home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/model.rs:
+/home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/notifications.rs:
+/home/linoux/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cln-rpc-0.2.0/src/primitives.rs:
