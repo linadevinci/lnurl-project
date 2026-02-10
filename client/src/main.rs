@@ -130,7 +130,8 @@ fn get_node_uri(ln_client: &mut ClnRpc, rt: &tokio::runtime::Runtime) -> Result<
             let pubkey = response.id.to_string();
             println!("Node pubkey: {}", pubkey);
             // ⚠️ UPDATE this to your node's actual listening address
-            Ok(format!("{}@{}", pubkey, "192.168.27.72:9735"))
+            Ok(format!("{}@{}", pubkey, "192.168.27.72:49735"))
+            //Ok(format!("{}@{}", pubkey, "192.168.27.72:9735"))
         }
         _ => Err(anyhow!("Unexpected response type from getinfo")),
     }
