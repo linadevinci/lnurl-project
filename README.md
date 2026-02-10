@@ -2,15 +2,15 @@
 
 Rust implementation of three LNURL protocols on Bitcoin Testnet4 with Core Lightning:
 
-- **LUD-02** — Channel Request
-- **LUD-03** — Withdraw Request  
-- **LUD-04** — Authentication (lnurl-auth)
+- Channel Request
+— Withdraw Request  
+— Authentication (lnurl-auth)
 
 ---
 
 ## ⚠️ ip config
 
-The files are already pre-filled with your addresses:
+The files are already pre-filled with my addresses:
 
 ```rust
 // server/src/main.rs
@@ -24,22 +24,20 @@ format!("{}@{}", pubkey, "127.0.0.1:49735")
 ```
 
 ---
-
-
-###  Fund Your Node (Server-side)
-
-Get a testnet4 address and fund it:
+### MY NODE
 
 ```bash
-lightning-cli newaddr          # get a tb1... address
+lightning-cli newaddr          
 # → go to a testnet4 faucet and send coins there
 # e.g. https://coinfaucet.eu/en/btc-testnet4/
 
 lightning-cli listfunds        # confirm balance shows up
 ```
+### My node
+tb1qphjxmslguhwl3c2l28hxqhg24yarky2rkmsmyd
 
-You need on-chain funds to open channels (LUD-02).  
-You need channel liquidity to pay invoices (LUD-03).
+need on-chain funds to open channels (LUD-02).  
+need channel liquidity to pay invoices (LUD-03).
 
 ---
 
