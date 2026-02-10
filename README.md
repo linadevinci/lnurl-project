@@ -31,7 +31,7 @@ lightning-cli newaddr
 lightning-cli listfunds        # confirm balance shows up
 ```
 ### My node
-tb1qphjxmslguhwl3c2l28hxqhg24yarky2rkmsmyd
+**tb1qphjxmslguhwl3c2l28hxqhg24yarky2rkmsmyd**
 
 need on-chain funds to open channels (LUD-02).  
 need channel liquidity to pay invoices (LUD-03).
