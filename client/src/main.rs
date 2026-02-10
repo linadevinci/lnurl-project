@@ -7,6 +7,7 @@ use std::net::Ipv4Addr;
 use std::str::FromStr;
 use url::Url;
 
+// ⚠️ UPDATE THIS to match your local CLN socket path
 const CLN_RPC_PATH: &str = "/home/linoux/.lightning/testnet4/lightning-rpc";
 
 // =============================================================================
@@ -128,8 +129,8 @@ fn get_node_uri(ln_client: &mut ClnRpc, rt: &tokio::runtime::Runtime) -> Result<
         cln_rpc::model::Response::Getinfo(response) => {
             let pubkey = response.id.to_string();
             println!("Node pubkey: {}", pubkey);
-            // Your node's actual listening address
-            Ok(format!("{}@{}", pubkey, "127.0.0.1:49735"))
+            // ⚠️ UPDATE this to your node's actual listening address
+            Ok(format!("{}@{}", pubkey, "192.168.27.72:9735"))
         }
         _ => Err(anyhow!("Unexpected response type from getinfo")),
     }
