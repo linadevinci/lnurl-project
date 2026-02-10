@@ -1,9 +1,7 @@
 # lightning Server & Client on Testnet4
 
 Rust implementation of three LNURL protocols on Bitcoin Testnet4 with Core Lightning:
-- Channel Request
-— Withdraw Request  
-— Authentication (lnurl-auth)
+- Channel Request Withdraw Request Authentication 
 
 ---
 
